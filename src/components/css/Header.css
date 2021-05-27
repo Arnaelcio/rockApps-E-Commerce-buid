@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap");
+
+header {
+  background-image: url(../../images/shape-home33.png);
+  background-size: cover;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  min-height: 70px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.header-top-bar {
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 50px;
+  justify-content: space-between;
+}
+
+.header-top-bar ul:first-child {
+  margin-left: 6%;
+}
+
+.header-top-bar ul:last-child {
+  margin-right: 6%;
+}
+
+.header-main ul:last-child {
+  color: #fff;
+  cursor: pointer;
+  font-family: "Red Hat Display";
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+  text-align-last: right;
+  width: 100%;
+}
+
+.header-main {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.header-main nav {
+  align-items: center;
+  display: flex;
+  height: 50px;
+  justify-content: flex-end;
+  width: 65%;
+}
+
+.header-main nav li a {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.logo {
+  margin-left: 4%;
+}
+
+.logo img {
+  margin-left: 6%;
+  width: 200px;
+}
+
+.header-top-bar span {
+  color: #fff;
+  font-family: "Red Hat Display";
+  font-size: 14px;
+  padding: 0 15px;
+  text-decoration: none;
+}
+
+header nav {
+  display: flex;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+nav ul li a {
+  color: #fff;
+  font-family: "Red Hat Display";
+  font-size: 14px;
+  padding: 0 15px;
+  text-decoration: none;
+}
+
+nav ul li a:hover,
+nav ul li span:hover {
+  color: #fe4c1c;
+}
+
+.div-rounded-perfil {
+  height: 49px;
+  margin-right: 10%;
+  width: 5%;
+}
+
+.div-rounded-perfil img {
+  border: 1px solid #fe4c1c;
+  border-radius: 50%;
+  width: 70%;
+}
+
+header .menu,
+header .close {
+  cursor: pointer;
+  display: none;
+}
+
+.photo-profile {
+  text-align-last: right;
+}
+
+.rounded-perfil {
+  border-radius: 50%;
+  width: 3%;
+}
+
+.profile-config {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 13px;
+  display: flex;
+  flex-flow: column;
+  height: 20%;
+  margin: auto;
+  padding: 1%;
+  position: fixed;
+  right: 2%;
+  top: 13%;
+  width: 15% !important;
+  z-index: 1;
+}
+
+.profile-config li {
+  margin-bottom: 8%;
+}
+
+.profile-config li:hover,
+.profile-config li label:hover {
+  background-color: #fe4c1c;
+  border-radius: 2px;
+  color: #fff;
+}
+
+.profile-config li label:hover,
+.div-rounded-perfil img {
+  cursor: pointer;
+}
+
+.file {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+[data-tooltip] {
+  font-weight: bold;
+  position: relative;
+}
+
+[data-tooltip]:after {
+  background-color: #0095ff;
+  border-radius: 3px;
+  color: White;
+  content: attr(data-tooltip);
+  display: none;
+  padding: 5px;
+  position: absolute;
+  right: calc(100% + 2px);
+  top: -5px;
+  white-space: nowrap;
+}
+
+[data-tooltip]:hover:after {
+  display: block;
+}
+
+.nav-cart {
+  position: absolute;
+  right: 2%;
+  top: 0.5%;
+  width: 25px;
+}
+
+.nav-cart span {
+  background-color: #fe4c1c;
+  border-radius: 45% 20% 45% 20%;
+  font-size: 14px;
+  font-weight: bolder;
+}

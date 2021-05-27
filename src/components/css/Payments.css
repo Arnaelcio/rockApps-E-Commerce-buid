@@ -1,0 +1,86 @@
+.payment {
+  background-image: url(../../images/bgtop-home1-1-1024x503.png);
+  background-repeat: round;
+  border: 1px solid #fe4c1c;
+  height: 80%;
+  margin-left: 20%;
+  position: absolute;
+  top: 10%;
+  width: 60%;
+  z-index: 2;
+}
+
+section .cart {
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+h2 {
+  color: white;
+}
+
+form {
+  align-content: center;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+fieldset {
+  color: white;
+  display: flex;
+  flex-flow: column;
+  width: 90%;
+}
+
+fieldset button {
+  background-color: #333;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+  display: block;
+  height: 40px;
+  letter-spacing: 2px;
+  margin: 15px 0;
+  outline: none;
+  text-transform: uppercase;
+  width: 80%;
+}
+
+label {
+  color: white;
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 2%;
+  width: 80%;
+}
+
+label .pgto {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.pgto label {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.check {
+  display: flex;
+  flex-flow: row;
+}
+
+.check label input {
+  margin-right: 2%;
+}
+
+.details-payment {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment > span {
+  position: absolute;
+  right: 1%;
+  top: 2%;
+}

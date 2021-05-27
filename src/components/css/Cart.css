@@ -1,0 +1,63 @@
+section .cart {
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+.total button {
+  background-color: #333;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: block;
+  height: 40px;
+  letter-spacing: 2px;
+  margin: 15px 0;
+  outline: none;
+  text-transform: uppercase;
+  width: 40%;
+}
+
+.amount span {
+  color: crimson;
+  padding: 0 20px;
+}
+
+.amount .count {
+  background-color: transparent;
+  border: 1px solid #555;
+  cursor: pointer;
+  height: 30px;
+  outline: none;
+  width: 40px;
+}
+
+.delete {
+  color: crimson;
+  cursor: pointer;
+  font-weight: 900;
+  position: absolute;
+  right: 5px;
+  top: 0;
+}
+
+.total {
+  align-items: center;
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.total a {
+  background-color: #333;
+  color: white;
+  letter-spacing: 2px;
+  padding: 10px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.total h3 {
+  color: crimson;
+  margin-right: 50px;
+}
